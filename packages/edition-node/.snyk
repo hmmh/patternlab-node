@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mustache:20151207':
+    - '@pattern-lab/core > @pattern-lab/engine-mustache > mustache':
+        patched: '2019-05-17T23:03:43.963Z'
